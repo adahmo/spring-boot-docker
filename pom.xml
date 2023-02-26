@@ -42,15 +42,12 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-	<servers>
-		<id>nexus</id>
-		<username>admin</username>
-		<password>admin123</password>
-	</server>
-
+	
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
+		<username>admin</username>
+		<password>admin123</password>    
 	      <name>Landmark Technologies Releases Nexus Repository</name>
 	      <url>http://3.238.26.109:8081/repository/tesla-dev-releases/</url>
 		   
